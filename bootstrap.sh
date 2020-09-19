@@ -4,7 +4,7 @@
 keymapsDir="qmk_firmware/keyboards/idobo/keymaps"
 
 # Available keymaps
-keymaps=("fake-split")
+keymaps=("fake")
 
 set -e
 
