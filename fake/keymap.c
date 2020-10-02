@@ -44,7 +44,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
     case _ACT1_:
       // clang-format off
-      SEND_STRING_DELAY(SS_LGUI("r") SS_DELAY(750) "setxkbmap -layout us,ru -option grp:caps_toggle\n" SS_LCTL("d"), 10);
+      SEND_STRING_DELAY(SS_LGUI("r") SS_DELAY(1000) "setxkbmap -layout us,ru -option grp:caps_toggle\n" SS_LCTL("d"), 10);
       // clang-format on
       break;
     }
